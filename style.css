@@ -26,3 +26,49 @@ body {
 h1, h2, h3, h4 {
     font-weight: 300;
 }
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+button {
+    background: var(--orange);
+    border: none;
+    padding: 10px 30px;
+    color: var(--white);
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: var(--transition);
+}
+button:hover {
+    background: var(--lightgray);
+    color: var(--orange);
+}
+
+
+/* header */
+header {
+    background-image: linear-gradient(to right, rgba(242, 205, 54, 0.6), rgba(220, 104, 5, 0.6)), url(../webcon_blogger/header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 350px;
+}
+header h1 {
+    font-family: var(--headingsFont);
+    color: var(--gray);
+    text-align: center;
+    font-size: 8rem;
+}
+header h1 span {
+    color: var(--white);
+}
+header p {
+    text-align: center;
+}
+header p span {
+    text-transform: uppercase;
+}
+
+/* blog */
