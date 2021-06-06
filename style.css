@@ -159,9 +159,18 @@ footer p {
         width: 90%;
         padding: 0;
     }
+    header {
+        height: 50vh;
+    }
+    header h1 {
+        font-size: 3.5rem;
+    }
+    section .container {
+        margin-top: -150px;
+    }
     section article .blogger, 
     section article .admin:nth-child(2),
-    section article .admin:nth-child(3), 
+    section article .admin:nth-child(3),
     section article .admin:nth-child(4)  {
         padding: 30px;
     }
