@@ -151,3 +151,35 @@ footer p {
     text-transform: uppercase;
     text-align: center;
 }
+
+/* responsive */
+@media(max-width: 767px) {
+    .container {
+        margin: auto;
+        width: 90%;
+        padding: 0;
+    }
+    section article .blogger, 
+    section article .admin:nth-child(2),
+    section article .admin:nth-child(3), 
+    section article .admin:nth-child(4)  {
+        padding: 30px;
+    }
+    section article div h3 {
+        font-size: 2rem;
+    }
+    section article {
+        flex: 0 0 100%;
+    }
+    section aside {
+        flex: 0 0 100%;
+        padding: 0;
+    }
+    section aside div {
+        padding: 30px;
+    }
+    footer {
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+}
